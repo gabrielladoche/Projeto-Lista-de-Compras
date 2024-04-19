@@ -1,0 +1,49 @@
+body{
+    background-color: #ccc;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: green;
+    margin-bottom: 2em;
+    margin-top: 3em;
+}
+
+header{
+    display: flex;
+    align-items: center;
+
+}
+
+input{
+    width: 60%;
+    margin: auto auto;
+    padding: 1.5em;
+    border: none;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.btn-add {
+    background-color: rgb(12, 155, 12);
+    color: #ffff;
+    border: none;
+    width: 40%;
+    margin: auto auto;
+    padding: 1.6em;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+
+.btn-add:hover {
+    background-color: #066801;
+    color: #000000;
+    
+}
+
